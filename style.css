@@ -1,0 +1,113 @@
+*{
+	font-family: roboto;
+	box-sizing: border-box;
+
+	margin:0;
+	padding: 0;
+	
+	
+
+}
+
+.navigationbar{
+	display: flex;
+	float: right;
+	padding-left: 10px;
+	padding-top: 10px;
+
+
+
+}
+
+#pictoprofil, #logomenu{
+	width: 50%;
+
+	
+}
+.elementnav{
+	padding-right: 100px;
+}
+.imagenav1,.imagenav2{
+	width: 50px;
+
+
+}
+
+main{
+	padding-top: 15%;
+	padding-left:35%;
+
+}
+input{
+	height: 40px;
+	width: 584px;
+	border-radius: 20px;
+	border:  .5px solid lightgrey;
+	margin-bottom: 1.5%
+}
+.imageMain,.Boutton,.Langues{
+	padding-left: 150px;
+}
+.Boutton{
+	padding-left: 180px;
+	padding-bottom: 2%;
+}
+
+
+button{
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
+	font-size: 12px;
+}
+button:hover{
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.Langues{
+	padding-left: 130px;
+
+}
+
+footer{
+	margin-top: 325px;
+	padding-bottom: 25px;
+	background-color:  	#D8D8D8;
+	color: grey;
+	padding-left: 10px;
+	
+
+}
+.infoCountry{
+	padding-top: 1%;
+	padding-bottom: 1%;
+
+}
+
+a{
+	text-decoration: none;
+	color: grey;
+
+}
+
+
+.Mainfooter {
+	border-top: solid 1px #E8E8E8;
+	padding-top: 1%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+
+}
+
+.elementnav a:hover,.Langues a:hover, .Mainfooter a:hover{
+	text-decoration: underline;
+}
+
+#pictoprofil{
+	border-radius: 50%;
+}
+.Langues a{
+	color: blue;
+}
+
